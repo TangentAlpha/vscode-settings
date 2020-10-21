@@ -45,9 +45,9 @@
     "window.newWindowDimensions": "offset",
     // I may want to change the zoom level from time to time.
     "window.zoomLevel": 0,
-    // A light theme is better for the eyes.
+    // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Solarized Light",
     // Set such that the name of the untitled file will not be derived from the content of the file, which is not helpful.
     "workbench.editor.untitled.labelFormat": "name",
     // Set such that words like "bytecode" will not be regarded as misspelled words.
