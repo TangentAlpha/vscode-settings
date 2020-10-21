@@ -1,0 +1,6 @@
+# Ignore everything.
+*
+
+# Include the few files needed.
+!.gitignore
+!settings.json
