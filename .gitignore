@@ -2,5 +2,6 @@
 *
 
 # Include the few files needed.
+!.gitattributes
 !.gitignore
 !settings.json
