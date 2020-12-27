@@ -47,7 +47,7 @@
     "window.zoomLevel": 0,
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Bold Light (rainglow)",
     // Set such that the name of the untitled file will not be derived from the content of the file, which is not helpful.
     "workbench.editor.untitled.labelFormat": "name",
 
