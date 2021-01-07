@@ -19,6 +19,9 @@
     "editor.renderWhitespace": "all",
     // The value 110 is my convention.
     "editor.rulers": [110],
+    // This setting is provided by Visual Studio IntelliCode.
+    // Default: "recentlyUsed"
+    "editor.suggestSelection": "first",
     // In Markdown documents, there are long sentences/paragraphs.
     // Having word wrap allows me to better view them.
     "editor.wordWrap": "on",
@@ -104,9 +107,6 @@
         "workflow", // https://www.collinsdictionary.com/dictionary/english/workflow
         "workflows" // The plural of workflow
     ],
-    // This setting is provided by Visual Studio IntelliCode.
-    // Default: "recentlyUsed"
-    "editor.suggestSelection": "first",
     // The style of "identicon" is the cleanest.
     // Default: "robohash"
     "gitlens.defaultGravatarsStyle": "identicon",
@@ -159,7 +159,8 @@
             "allowed_elements": [
                 "br", // This is needed to use line breaks in a Markdown table cell.
                 "div", // "<div>" can be used to centre images.
-                "img" // Occasionally, I would like to adjust the dimensions of an image with "<img>" and so on.
+                "img", // Occasionally, I would like to adjust the dimensions of an image with "<img>" and so on.
+                "kbd" // Nice keyboard buttons can be displayed with this tag.
             ]
         },
         // This rules' implementation is flawed.
