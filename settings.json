@@ -178,6 +178,10 @@
 
     /* Language-specific settings */
 
+    "[html]": {
+        // Use VSCode's default formatter first.
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "[jsonc]": {
         // Prettier allows having a blank line to separate two sections, which is clearer.
         "editor.defaultFormatter": "esbenp.prettier-vscode"
