@@ -58,8 +58,8 @@
 
     // Set such that words like "bytecode" will not be regarded as misspelled words.
     "cSpell.allowCompoundWords": true,
-    // Check the spellings for ".gitignore" as well.
-    "cSpell.enableFiletypes": ["ignore"],
+    // Check the spellings for ".bat" and ".gitignore" as well.
+    "cSpell.enableFiletypes": ["bat", "ignore"],
     // "Neighbour" (not "neighbor"), "colour" (not "color"), etc. are preferred.
     "cSpell.language": "en-GB",
     "cSpell.userWords": [
@@ -123,8 +123,6 @@
     "markdown.preview.fontSize": 12,
     // The feature adds a small line on top of a table, which I do not need.
     "markdown-table-formatter.enableSort": false,
-    // No, I do not want to send my usage statistics out.
-    "markdown-table-formatter.telemetry": false,
     "markdownlint.config": {
         // This controls the unordered list indentation.
         // 4-space indentations are used everywhere, including in Markdown documents.
