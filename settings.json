@@ -39,11 +39,13 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
-    // Set the value to that of "editor.fontSize".
-    "terminal.integrated.fontSize": 12,
     // If Git Bash is used ("C:\\Program Files\\Git\\bin\\bash.exe"), Git commands can be used conveniently.
     // However, Git Bash does not work with Java.
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.defaultProfile.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // Set the value to that of "editor.fontSize".
+    "terminal.integrated.fontSize": 12,
+    // This is a neat feature.
+    "terminal.integrated.tabs.enabled": true,
     // Set such that I do not have to manually resize the new window.
     "window.newWindowDimensions": "offset",
     // I may want to change the zoom level from time to time.
@@ -51,6 +53,9 @@
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
     "workbench.colorTheme": "Isotope (rainglow)",
+    // The hint tells the user to select a language in a new file.
+    // I don't need this.
+    "workbench.editor.untitled.hint": "hidden",
     // Set such that the name of the untitled file will not be derived from the content of the file, which is not helpful.
     "workbench.editor.untitled.labelFormat": "name",
 
