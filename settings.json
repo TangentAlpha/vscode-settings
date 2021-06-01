@@ -119,6 +119,8 @@
     // The mode of "zen" is activated to avoid interruptions.
     // Default: ""
     "gitlens.mode.active": "zen",
+    // This prevents removing the indentations of commented code.
+    "java.format.comments.enabled": false,
     // 4-space indentations are used everywhere, including in Markdown documents.
     "markdown.extension.list.indentationSize": "inherit",
     // Microsoft JhengHei UI is added.
