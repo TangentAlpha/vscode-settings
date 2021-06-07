@@ -1,3 +1,32 @@
+/* Extensions installed */
+
+/*
+- Code Spell Checker (MIT License)
+- GitLens (MIT License)
+- Jupyter (MIT License)
+- Markdown All in One (MIT License)
+- Markdown Table Formatter (license is missing)
+- markdownlint (MIT License)
+- Prettier (MIT License)
+- Rainglow (MIT License)
+- shell-format (MIT License)
+
+- C/C++ (MIT License)
+- C# (MIT License)
+- Java Extension Pack (MIT License)
+    - Debugger for Java (MIT License)
+    - Java Test Runner (MIT License)
+    - Language Support for Java(TM) by Red Hat (EPL-2.0 License)
+    - Maven for Java (MIT License)
+    - Project Manager for Java (MIT License)
+    - Visual Studio IntelliCode (CC-BY-4.0 License)
+- PHP Intelephense (MIT License)
+- Python (MIT License)
+    - Pylance (CC-BY-4.0 License)
+- Vim (MIT License)
+- XML Tools (MIT License)
+*/
+
 {
     /* Built-in settings */
 
