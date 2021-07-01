@@ -81,7 +81,7 @@
     "window.zoomLevel": 0,
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Warlock (rainglow)",
+    "workbench.colorTheme": "Juicy Light (rainglow)",
     // The hint tells the user to select a language in a new file.
     // I don't need this.
     "workbench.editor.untitled.hint": "hidden",
