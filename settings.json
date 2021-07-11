@@ -68,11 +68,23 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
-    // If Git Bash is used ("C:\\Program Files\\Git\\bin\\bash.exe"), Git commands can be used conveniently.
-    // However, Git Bash does not work with Java.
-    "terminal.integrated.defaultProfile.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // If Git Bash is used ("C:\\Program Files\\Git\\bin\\bash.exe"), the current branch name is included in the bash prompt.
+    // With Cygwin, one is able to install extra packages like "jq" easily.
+    "terminal.integrated.defaultProfile.windows": "Cygwin",
     // Set the value to that of "editor.fontSize".
     "terminal.integrated.fontSize": 12,
+    "terminal.integrated.profiles.windows": {
+        "Cygwin": {
+            // Start bash, not mintty, or a separate window will be started.
+            "path": "C:\\cygwin64\\bin\\bash.exe",
+            // Keyword: login shell
+            "args": ["--login"],
+            "env": {
+                // Use this to keep bash from doing "cd $HOME".
+                "CHERE_INVOKING": "1"
+            }
+        }
+    },
     // This is a neat feature.
     "terminal.integrated.tabs.enabled": true,
     // Set such that I do not have to manually resize the new window.
