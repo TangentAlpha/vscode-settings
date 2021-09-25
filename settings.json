@@ -4,12 +4,15 @@
 - Code Spell Checker (MIT License)
 - GitLens (MIT License)
 - Jupyter (MIT License)
+    - Jupyter Keymap (MIT License)
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (license is missing)
 - markdownlint (MIT License)
+- Open (MIT License)
 - Prettier (MIT License)
 - Rainglow (MIT License)
 - shell-format (MIT License)
+- vscode-pdf (MIT License)
 
 - C/C++ (MIT License)
 - C# (MIT License)
@@ -90,8 +93,6 @@
     "terminal.integrated.tabs.enabled": true,
     // Set such that I do not have to manually resize the new window.
     "window.newWindowDimensions": "offset",
-    // I may want to change the zoom level from time to time.
-    "window.zoomLevel": 0,
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
     "workbench.colorTheme": "Spearmint Light (rainglow)",
@@ -248,4 +249,5 @@
         // Disallow formatting on save since this may accidentally format compact tables.
         "editor.formatOnSave": false
     }
+    // Temporary settings (e.g. "window.zoomLevel") goes up here.
 }
