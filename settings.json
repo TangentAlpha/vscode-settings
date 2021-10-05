@@ -95,7 +95,7 @@
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Spearmint Light (rainglow)",
+    "workbench.colorTheme": "Frontier (rainglow)",
     // The hint tells the user to select a language in a new file.
     // I don't need this.
     "workbench.editor.untitled.hint": "hidden",
