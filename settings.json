@@ -10,6 +10,7 @@
 - markdownlint (MIT License)
 - Open (MIT License)
 - Prettier (MIT License)
+- Rainblow CSV (MIT License)
 - Rainglow (MIT License)
 - shell-format (MIT License)
 - vscode-pdf (MIT License)
@@ -36,6 +37,8 @@
 
     // Sometimes I would like to see the diff of whitespaces and sometimes I would not.
     "diffEditor.ignoreTrimWhitespace": false,
+    // I am not using screen readers here.
+    "editor.accessibilitySupport": "off",
     // Try out Cascadia Code.
     // Microsoft JhengHei UI is included such that the style of Chinese characters matches that of English characters.
     // Default: "Consolas, 'Courier New', monospace"
@@ -107,7 +110,7 @@
     // Set such that words like "bytecode" will not be regarded as misspelled words.
     "cSpell.allowCompoundWords": true,
     // Check the spellings for more file types.
-    "cSpell.enableFiletypes": ["bat", "ignore", "shellscript", "sql"],
+    "cSpell.enableFiletypes": ["bat", "csv", "ignore", "shellscript", "sql"],
     // "Neighbour" (not "neighbor"), "colour" (not "color"), etc. are preferred.
     "cSpell.language": "en-GB",
     // Check the files outside the workspace as well.
