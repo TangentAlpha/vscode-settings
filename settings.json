@@ -111,7 +111,14 @@
     // Set such that words like "bytecode" will not be regarded as misspelled words.
     "cSpell.allowCompoundWords": true,
     // Check the spellings for more file types.
-    "cSpell.enableFiletypes": ["bat", "csv", "ignore", "shellscript", "sql"],
+    "cSpell.enableFiletypes": [
+        "bat",
+        "csv",
+        "ignore",
+        "shellscript",
+        "sql",
+        "xml"
+    ],
     // "Neighbour" (not "neighbor"), "colour" (not "color"), etc. are preferred.
     "cSpell.language": "en-GB",
     // Check the files outside the workspace as well.
