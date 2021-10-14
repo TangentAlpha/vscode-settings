@@ -36,8 +36,6 @@
 {
     /* Built-in settings */
 
-    // Sometimes I would like to see the diff of whitespaces and sometimes I would not.
-    "diffEditor.ignoreTrimWhitespace": false,
     // I am not using screen readers here.
     "editor.accessibilitySupport": "off",
     // Try out Cascadia Code.
