@@ -5,6 +5,7 @@
 - GitLens (MIT License)
 - Jupyter (MIT License)
     - Jupyter Keymap (MIT License)
+    - Jupyter Notebook Renderers (MIT License)
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (license is missing)
 - markdownlint (MIT License)
@@ -97,7 +98,7 @@
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Frontier (rainglow)",
+    "workbench.colorTheme": "Glance Light (rainglow)",
     // The hint tells the user to select a language in a new file.
     // I don't need this.
     "workbench.editor.untitled.hint": "hidden",
