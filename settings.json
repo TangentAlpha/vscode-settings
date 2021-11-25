@@ -2,6 +2,7 @@
 
 /*
 - Code Spell Checker (MIT License)
+- Edit csv (MIT License)
 - GitLens (MIT License)
 - Jupyter (MIT License)
     - Jupyter Keymap (MIT License)
@@ -168,6 +169,8 @@
         "workflow", // https://www.collinsdictionary.com/dictionary/english/workflow
         "workflows" // The plural of workflow
     ],
+    // The default size does not work well for a smaller window.
+    "csv-edit.fontSizeInPx": 10,
     // The style of "identicon" is the cleanest.
     // Default: "robohash"
     "gitlens.defaultGravatarsStyle": "identicon",
