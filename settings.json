@@ -11,6 +11,7 @@
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (license is missing)
 - markdownlint (MIT License)
+- Marp for VS Code (MIT License)
 - Open (MIT License)
 - Prettier (MIT License)
 - Rainblow CSV (MIT License)
@@ -225,7 +226,8 @@
                 "br", // This is needed to use line breaks in a Markdown table cell.
                 "div", // "<div>" can be used to centre images.
                 "img", // Occasionally, I would like to adjust the dimensions of an image with "<img>" and so on.
-                "kbd" // Nice keyboard buttons can be displayed with this tag.
+                "kbd", // Nice keyboard buttons can be displayed with this tag.
+                "style" // Used to configure the styling in Marp slides.
             ]
         },
         // This rules' implementation is flawed.
