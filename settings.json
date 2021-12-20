@@ -5,9 +5,6 @@
 - Edit csv (MIT License)
 - GitLens (MIT License)
 - Hex Editor (MIT License)
-- Jupyter (MIT License)
-    - Jupyter Keymap (MIT License)
-    - Jupyter Notebook Renderers (MIT License)
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (license is missing)
 - markdownlint (MIT License)
@@ -31,6 +28,9 @@
     - Maven for Java (MIT License)
     - Project Manager for Java (MIT License)
     - Visual Studio IntelliCode (CC-BY-4.0 License)
+- Jupyter (MIT License)
+    - Jupyter Keymap (MIT License)
+    - Jupyter Notebook Renderers (MIT License)
 - PHP Intelephense (MIT License)
 - Python (MIT License)
     - Pylance (CC-BY-4.0 License)
@@ -102,6 +102,8 @@
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
     "workbench.colorTheme": "Jingle (rainglow)",
+    // The pinned tab behaviour is more aligned with that in Chrome, Firefox with this setting.
+    "workbench.editor.pinnedTabSizing": "compact",
     // The hint tells the user to select a language in a new file.
     // I don't need this.
     "workbench.editor.untitled.hint": "hidden",
