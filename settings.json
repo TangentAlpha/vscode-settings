@@ -80,8 +80,8 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
-    // If Git Bash is used ("C:\\Program Files\\Git\\bin\\bash.exe"), the current branch name is included in the bash prompt.
-    // With Cygwin, one is able to install extra packages like "jq" easily.
+    // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
+    // With Cygwin, one is able to install extra packages like `jq` easily.
     "terminal.integrated.defaultProfile.windows": "Cygwin",
     // Set the value to that of "editor.fontSize".
     "terminal.integrated.fontSize": 12,
@@ -92,7 +92,7 @@
             // Keyword: login shell
             "args": ["--login"],
             "env": {
-                // Use this to keep bash from doing "cd $HOME".
+                // Use this to keep bash from doing `cd $HOME`.
                 "CHERE_INVOKING": "1"
             }
         }
@@ -228,8 +228,8 @@
         "MD033": {
             "allowed_elements": [
                 "br", // This is needed to use line breaks in a Markdown table cell.
-                "div", // "<div>" can be used to centre images.
-                "img", // Occasionally, I would like to adjust the dimensions of an image with "<img>" and so on.
+                "div", // `<div>` can be used to centre images.
+                "img", // Occasionally, I would like to adjust the dimensions of an image with `<img>` and so on.
                 "kbd", // Nice keyboard buttons can be displayed with this tag.
                 "style" // Used to configure the styling in Marp slides.
             ]
