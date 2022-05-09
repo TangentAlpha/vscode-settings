@@ -234,12 +234,15 @@
                 "style" // Used to configure the styling in Marp slides.
             ]
         },
-        // This rules' implementation is flawed.
-        // "**_..._**...**...**" falsely triggers a warning.
+        // This rule reports unwanted warnings for strings like "2 * 3" (2 times 3).
         "MD037": false,
         // This rule requires the first line in file to be a top level heading.
         // Although this rule is disabled, it is a good guide.
-        "MD041": false
+        "MD041": false,
+        // This rule reports warnings when "**_..._**" and "*...*" are used in the same document.
+        // I use "**_..._**" as it clearly shows that bold is followed by italic.
+        // Notably, emphasis with `_` is not allowed inside words (https://spec.commonmark.org/0.30/#:~:text=Emphasis%20with%20_%20is%20not%20allowed%20inside%20words), but it will not appear in this form.
+        "MD049": false
     },
     // 4-space indentations are used everywhere.
     "prettier.tabWidth": 4,
