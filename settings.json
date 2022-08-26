@@ -5,6 +5,7 @@
 - Edit csv (MIT License)
 - GitLens (MIT License)
 - Hex Editor (MIT License)
+- LTeX (MPL-2.0 License)
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (license is missing)
 - markdownlint (MIT License)
@@ -187,6 +188,8 @@
     "gitlens.mode.active": "zen",
     // This prevents removing the indentations of commented code.
     "java.format.comments.enabled": false,
+    // I don't need spelling corrections, so the language variant is not specified.
+    "ltex.language": "en",
     // 4-space indentations are used everywhere, including in Markdown documents.
     "markdown.extension.list.indentationSize": "inherit",
     // Microsoft JhengHei UI is added.
