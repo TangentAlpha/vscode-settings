@@ -106,7 +106,7 @@
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Mauve (rainglow)",
+    "workbench.colorTheme": "Joker Light (rainglow)",
     // The pinned tab behaviour is more aligned with that in Chrome, Firefox with this setting.
     "workbench.editor.pinnedTabSizing": "compact",
     // The hint tells the user to select a language in a new file.
