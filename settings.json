@@ -59,6 +59,8 @@
     "editor.fontSize": 12,
     // Set such that I do not have to worry about the format.
     "editor.formatOnSave": true,
+    // This setting is added by GitHub Copilot.
+    "editor.inlineSuggest.enabled": true,
     // Set for me to better observe the whitespaces.
     // This is useful when editing Markdown documents.
     "editor.renderWhitespace": "all",
@@ -107,7 +109,7 @@
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Grunge (rainglow)",
+    "workbench.colorTheme": "Stasis Light (rainglow)",
     // The pinned tab behaviour is more aligned with that in Chrome, Firefox with this setting.
     "workbench.editor.pinnedTabSizing": "compact",
     // The hint tells the user to select a language in a new file.
