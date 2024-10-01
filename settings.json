@@ -17,7 +17,7 @@
 - Rainblow CSV (MIT License)
 - Rainglow (MIT License)
 - Remote - SSH (CC-BY-4.0 License)
-- Remote - SSH: Editing Configuration Files (CC-BY-4.0 License)
+    - Remote - SSH: Editing Configuration Files (CC-BY-4.0 License)
 - shell-format (MIT License)
 - ShellCheck (MIT License)
 - vscode-pdf (MIT License)
@@ -59,8 +59,6 @@
     "editor.fontSize": 12,
     // Set such that I do not have to worry about the format.
     "editor.formatOnSave": true,
-    // This setting is added by GitHub Copilot.
-    "editor.inlineSuggest.enabled": true,
     // Set for me to better observe the whitespaces.
     // This is useful when editing Markdown documents.
     "editor.renderWhitespace": "all",
@@ -86,6 +84,12 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
+    // Don't sync temporary settings.
+    "settingsSync.ignoredSettings": [
+        "diffEditor.hideUnchangedRegions.enabled",
+        "diffEditor.ignoreTrimWhitespace",
+        "editor.stickyScroll.enabled"
+    ],
     // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
     // With Cygwin, one is able to install extra packages like `jq` easily.
     "terminal.integrated.defaultProfile.windows": "Cygwin",
@@ -105,16 +109,20 @@
     },
     // This is a neat feature.
     "terminal.integrated.tabs.enabled": true,
+    // https://code.visualstudio.com/updates/v1_82#_command-center-now-on-by-default
+    // Command Center has been on by default since version 1.82 (August 2023).
+    // It makes the title bar less draggable, so it is disabled.
+    "window.commandCenter": false,
     // Set such that I do not have to manually resize the new window.
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Stasis Light (rainglow)",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    // The hint provides instructions for new users.
+    // I don't need this.
+    "workbench.editor.empty.hint": "hidden",
     // The pinned tab behaviour is more aligned with that in Chrome, Firefox with this setting.
     "workbench.editor.pinnedTabSizing": "compact",
-    // The hint tells the user to select a language in a new file.
-    // I don't need this.
-    "workbench.editor.untitled.hint": "hidden",
     // Set such that the name of the untitled file will not be derived from the content of the file, which is not helpful.
     "workbench.editor.untitled.labelFormat": "name",
 
