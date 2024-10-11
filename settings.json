@@ -7,6 +7,7 @@
     - GitHub Copilot Chat (subscribed)
 - GitLens (MIT License)
 - Hex Editor (MIT License)
+- LaTeX Workshop (MIT License)
 - LTeX (MPL-2.0 License)
 - Markdown All in One (MIT License)
 - Markdown Table Formatter (GPLv3)
@@ -22,7 +23,6 @@
     - Remote Explorer (CC-BY-4.0 License)
 - shell-format (MIT License)
 - ShellCheck (MIT License)
-- vscode-pdf (MIT License)
 - XML Tools (MIT License)
 
 - C/C++ (MIT License)
@@ -202,6 +202,8 @@
     "gitlens.mode.active": "zen",
     // This prevents removing the indentations of commented code.
     "java.format.comments.enabled": false,
+    // latexindent is a more traditional LaTeX formatter.
+    "latex-workshop.formatting.latex": "latexindent",
     // I don't need spelling corrections, so the language variant is not specified.
     "ltex.language": "en",
     // 4-space indentations are used everywhere, including in Markdown documents.
