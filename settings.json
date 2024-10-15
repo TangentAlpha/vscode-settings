@@ -15,6 +15,7 @@
 - Marp for VS Code (MIT License)
 - Open (MIT License)
 - Partial Diff (MIT License)
+- PowerShell (MIT License)
 - Prettier (MIT License)
 - Rainblow CSV (MIT License)
 - Rainglow (MIT License)
@@ -95,7 +96,8 @@
     },
     // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
     // With Cygwin, one is able to install extra packages like `jq` easily.
-    "terminal.integrated.defaultProfile.windows": "Cygwin",
+    // Terminal Shell Integration supports Git Bash and pwsh on Windows.
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     // Set the value to that of "editor.fontSize".
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.profiles.windows": {
