@@ -122,7 +122,7 @@
     "window.newWindowDimensions": "offset",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
-    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.colorTheme": "Default Light+",
     // The hint provides instructions for new users.
     // I don't need this.
     "workbench.editor.empty.hint": "hidden",
@@ -289,8 +289,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
-        // Use this formatter instead of the one provided by Markdown All in One or Prettier as they cannot format the selection.
-        "editor.defaultFormatter": "fcrespo82.markdown-table-formatter",
         // Although I use 4-space indentations in Markdown documents as well, the indentation is often detected as 2 spaces (the space padding after having a soft break in a list).
         // Thus, the detection of indentation is disabled.
         "editor.detectIndentation": false,
