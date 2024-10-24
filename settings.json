@@ -94,6 +94,8 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
+    // Use Windows Terminal as the external terminal.
+    "terminal.external.windowsExec": "wt",
     // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
     // With Cygwin, one is able to install extra packages like `jq` easily.
     // Terminal Shell Integration supports Git Bash and pwsh on Windows.
