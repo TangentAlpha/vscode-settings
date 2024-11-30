@@ -138,14 +138,14 @@
     // Set such that words like "bytecode" will not be regarded as misspelled words.
     "cSpell.allowCompoundWords": true,
     // Check the spellings for more file types.
-    "cSpell.enableFiletypes": [
-        "bat",
-        "csv",
-        "ignore",
-        "shellscript",
-        "sql",
-        "xml"
-    ],
+    "cSpell.enabledFileTypes": {
+        "bat": true,
+        "csv": true,
+        "ignore": true,
+        "shellscript": true,
+        "sql": true,
+        "xml": true
+    },
     // "Neighbour" (not "neighbor"), "colour" (not "color"), etc. are preferred.
     "cSpell.language": "en-GB",
     // Check the files outside the workspace as well.
@@ -291,6 +291,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
+        // Use this formatter with the `Format Selection` command.
+        "editor.defaultFormatter": "fcrespo82.markdown-table-formatter",
         // Although I use 4-space indentations in Markdown documents as well, the indentation is often detected as 2 spaces (the space padding after having a soft break in a list).
         // Thus, the detection of indentation is disabled.
         "editor.detectIndentation": false,
