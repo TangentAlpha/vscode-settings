@@ -116,6 +116,8 @@
     },
     // This is a neat feature.
     "terminal.integrated.tabs.enabled": true,
+    // The custom styling behaves slightly better.
+    "window.controlsStyle": "custom",
     // https://code.visualstudio.com/updates/v1_82#_command-center-now-on-by-default
     // Command Center has been on by default since version 1.82 (August 2023).
     // It makes the title bar less draggable, so it is disabled.
