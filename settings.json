@@ -124,6 +124,8 @@
     "window.commandCenter": false,
     // Set such that I do not have to manually resize the new window.
     "window.newWindowDimensions": "offset",
+    // Change the window title format so that `${rootName}` comes first.
+    "window.title": "${rootName}${separator}${dirty}${activeEditorShort}",
     // The colour theme is changed occasionally.
     // Default: "Default Dark+"
     "workbench.colorTheme": "Default Light+",
