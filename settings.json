@@ -289,8 +289,6 @@
     },
     // 4-space indentations are used everywhere.
     "prettier.tabWidth": 4,
-    // The extension cannot find the bundled `shellcheck` for Windows on Arm.
-    "shellcheck.executablePath": "C:\\cygwin64\\bin\\shellcheck",
     // This setting is provided by Visual Studio IntelliCode.
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
