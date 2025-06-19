@@ -248,12 +248,6 @@
         // If this rule is set to be true, a lot of effort will be needed to ensure that it is followed.
         // The default "line_length" is 80.
         "MD013": false,
-        // This controls the disallowed trailing punctuations in headings.
-        // A question mark is allowed to end a heading.
-        // Default: ".,;:!?。，；：！？"
-        "MD026": {
-            "punctuation": ".,;:!。，；：！"
-        },
         // https://spec.commonmark.org/0.29/#block-quotes
         // CommonMark regards the reported situation as two block quotes.
         "MD028": false,
@@ -285,7 +279,10 @@
         // This rule reports warnings when "**_..._**" and "*...*" are used in the same document.
         // I use "**_..._**" as it clearly shows that bold is followed by italic.
         // Notably, emphasis with `_` is not allowed inside words (https://spec.commonmark.org/0.30/#:~:text=Emphasis%20with%20_%20is%20not%20allowed%20inside%20words), but it will not appear in this form.
-        "MD049": false
+        "MD049": false,
+        // This rule requires descriptive link text.
+        // Sensible advice, but I do not want to see the warnings.
+        "MD059": false
     },
     // 4-space indentations are used everywhere.
     "prettier.tabWidth": 4,
