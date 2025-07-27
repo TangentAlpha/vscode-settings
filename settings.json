@@ -94,6 +94,8 @@
         // It contains a number of the preferences that can be maintained at the project level, for example, compiler warning/error levels or code style settings.
         "**/.settings": true
     },
+    // The Git repository found in the parent folder can be opened in the Source Control view from the Activity Bar.
+    "git.openRepositoryInParentFolders": "never",
     // Use Windows Terminal as the external terminal.
     "terminal.external.windowsExec": "wt",
     // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
@@ -216,6 +218,8 @@
             "text": "If more than one line is needed, add a blank line, then place the rest of the message in the following lines. End sentences with a full stop. Do not use soft breaks."
         }
     ],
+    // https://aka.ms/vscode-nes
+    "github.copilot.nextEditSuggestions.enabled": true,
     // The style of "identicon" is the cleanest.
     // Default: "robohash"
     "gitlens.defaultGravatarsStyle": "identicon",
