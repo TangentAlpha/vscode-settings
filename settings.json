@@ -156,6 +156,8 @@
     "cSpell.language": "en-GB",
     // Check the files outside the workspace as well.
     "cSpell.spellCheckOnlyWorkspaceFiles": false,
+    // Check files ignored by Git.
+    "cSpell.useGitignore": false,
     "cSpell.userWords": [
         "Cheung", // The romanization of "張"
         "Ctrl", // https://en.wikipedia.org/wiki/Control_key
