@@ -102,6 +102,8 @@
     // With Cygwin, one is able to install extra packages like `jq` easily.
     // Terminal Shell Integration supports Git Bash and pwsh on Windows.
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // Without this, the suggestions will not show up in the terminal.
+    "terminal.integrated.suggest.enabled": true,
     // Set the value to that of "editor.fontSize".
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.profiles.windows": {
