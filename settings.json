@@ -3,8 +3,7 @@
 /*
 - Code Spell Checker (MIT License)
 - Edit CSV (MIT License)
-- GitHub Copilot (subscribed)
-    - GitHub Copilot Chat (subscribed)
+- GitHub Copilot Chat (subscribed)
 - GitLens (MIT License)
 - Hex Editor (MIT License)
 - LaTeX Workshop (MIT License)
@@ -204,6 +203,7 @@
         "sharded", // The past tense and past participle of shard
         "shortcut", // https://www.collinsdictionary.com/dictionary/english/shortcut
         "shortcuts", // The plural of shortcut
+        "skeptical", // https://www.collinsdictionary.com/dictionary/english/skeptical
         "startup", // https://www.collinsdictionary.com/dictionary/english/startup
         "timeout", // https://www.collinsdictionary.com/dictionary/english/timeout
         "uncheck", // https://www.collinsdictionary.com/dictionary/english/uncheck
