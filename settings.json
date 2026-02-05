@@ -64,9 +64,6 @@
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Microsoft JhengHei UI'",
     // Cascadia Code supports ligatures.
     "editor.fontLigatures": true,
-    // Set such that more content can be displayed.
-    // Default: 14
-    "editor.fontSize": 12,
     // Set such that I do not have to worry about the format.
     "editor.formatOnSave": true,
     // Set for me to better observe the whitespaces.
@@ -104,8 +101,6 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     // Without this, the suggestions will not show up in the terminal.
     "terminal.integrated.suggest.enabled": true,
-    // Set the value to that of "editor.fontSize".
-    "terminal.integrated.fontSize": 12,
     "terminal.integrated.profiles.windows": {
         "Cygwin": {
             // Start bash, not mintty, or a separate window will be started.
@@ -244,8 +239,6 @@
     // Microsoft JhengHei UI is added.
     // Default: "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
     "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif, 'Microsoft JhengHei UI'",
-    // Set the value to that of "editor.fontSize".
-    "markdown.preview.fontSize": 12,
     // The feature adds a small line on top of a table, which I do not need.
     "markdown-table-formatter.enableSort": false,
     "markdownlint.config": {
