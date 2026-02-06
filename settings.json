@@ -115,6 +115,8 @@
     },
     // This is a neat feature.
     "terminal.integrated.tabs.enabled": true,
+    // Adjust the colour scheme automatically according to the OS setting.
+    "window.autoDetectColorScheme": true,
     // The custom styling behaves slightly better.
     "window.controlsStyle": "custom",
     // https://code.visualstudio.com/updates/v1_82#_command-center-now-on-by-default
@@ -125,9 +127,6 @@
     "window.newWindowDimensions": "offset",
     // Change the window title format so that `${rootName}` comes first.
     "window.title": "${rootName}${separator}${dirty}${activeEditorShort}",
-    // The colour theme is changed occasionally.
-    // Default: "Default Dark+"
-    "workbench.colorTheme": "Default Light+",
     // The hint provides instructions for new users.
     // I don't need this.
     "workbench.editor.empty.hint": "hidden",
@@ -156,55 +155,18 @@
     // Check files ignored by Git.
     "cSpell.useGitignore": false,
     "cSpell.userWords": [
-        "Cheung", // The romanization of "張"
-        "Ctrl", // https://en.wikipedia.org/wiki/Control_key
-        "Ethereum", // https://en.wikipedia.org/wiki/Ethereum
+        "Cheung", // Hong Kong Government Cantonese romanization
         "Feedly", // https://en.wikipedia.org/wiki/Feedly
-        "Firefox", // https://en.wikipedia.org/wiki/Firefox
         "HKSTP", // https://en.wikipedia.org/wiki/Hong_Kong_Science_and_Technology_Parks_Corporation
         "HKUST", // https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology
-        "Hongkonger", // The singular of Hongkongers
+        "Hongkonger", // Singular of Hongkongers
         "Hongkongers", // https://en.wikipedia.org/wiki/Hongkongers
-        "IntelliJ", // https://en.wikipedia.org/wiki/IntelliJ_IDEA
-        "Kwan", // The romanization of "關"
-        "L'Hospital's", // L'Hospital's rule
-        "Maven", // https://en.wikipedia.org/wiki/Apache_Maven
-        "Nakamoto", // Satoshi Nakamoto
-        "Poisson", // Poisson distribution
         "Quora", // https://en.wikipedia.org/wiki/Quora
-        "Satoshi", // Satoshi Nakamoto
-        "Tung", // The romanization of "東"
-        "WhatsApp", // https://en.wikipedia.org/wiki/WhatsApp
-        "analytics", // https://www.collinsdictionary.com/dictionary/english/analytics
-        "analyzed", // The past tense and past participle of analyze
-        "analyzing", // The present participle of analyze
-        "anymore", // https://www.collinsdictionary.com/dictionary/english/anymore
-        "app", // https://www.collinsdictionary.com/dictionary/english/app
-        "apps", // The plural of app
-        "artifact", // https://www.collinsdictionary.com/dictionary/english/artifact
-        "artifacts", // The plural of artifact
-        "async", // The abbreviation of asynchronous
-        "detailedly", // https://www.collinsdictionary.com/dictionary/english/detailedly
-        "dialog", // https://www.collinsdictionary.com/dictionary/english/dialog
-        "geek", // https://www.collinsdictionary.com/dictionary/english/geek
-        "incentivize", // https://www.collinsdictionary.com/dictionary/english/incentivize
-        "lifecycle", // https://en.wikipedia.org/wiki/Life_cycle
-        "lifecycles", // The plural of lifecycle
-        "malware", // https://www.collinsdictionary.com/dictionary/english/malware
-        "markdownlint", // https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-        "movie", // https://www.collinsdictionary.com/dictionary/english/movie
-        "movies", // The plural of movie
-        "setup", // https://www.collinsdictionary.com/dictionary/english/setup
-        "sharded", // The past tense and past participle of shard
-        "shortcut", // https://www.collinsdictionary.com/dictionary/english/shortcut
-        "shortcuts", // The plural of shortcut
-        "skeptical", // https://www.collinsdictionary.com/dictionary/english/skeptical
-        "startup", // https://www.collinsdictionary.com/dictionary/english/startup
-        "timeout", // https://www.collinsdictionary.com/dictionary/english/timeout
-        "uncheck", // https://www.collinsdictionary.com/dictionary/english/uncheck
-        "webpage", // https://www.collinsdictionary.com/dictionary/english/webpage
-        "workflow", // https://www.collinsdictionary.com/dictionary/english/workflow
-        "workflows" // The plural of workflow
+        "Tung", // Hong Kong Government Cantonese romanization
+        "analyzed", // Past tense and past participle of analyze
+        "analyzing", // Present participle of analyze
+        "dialog", // https://en.wikipedia.org/wiki/Dialog_box
+        "skeptical" // https://en.wiktionary.org/wiki/skeptical
     ],
     // The default size does not work well for a smaller window.
     "csv-edit.fontSizeInPx": 10,
