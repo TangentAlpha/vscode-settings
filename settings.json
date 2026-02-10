@@ -32,8 +32,6 @@
 - Java Extension Pack (MIT License)
     - Debugger for Java (MIT License)
     - Gradle for Java (MIT License)
-    - IntelliCode (CC-BY-4.0 License)
-        - IntelliCode API Usage Examples (CC-BY-4.0 License)
     - Java Test Runner (MIT License)
     - Language Support for Java(TM) by Red Hat (EPL-2.0 License)
     - Maven for Java (MIT License)
@@ -58,10 +56,11 @@
 
     // I am not using screen readers here.
     "editor.accessibilitySupport": "off",
-    // Try out Cascadia Code.
-    // Microsoft JhengHei UI is included such that the style of Chinese characters matches that of English characters.
+    // Cascadia Code is a nice monospaced font.
+    // Chinese characters are supported by the system font fallback.
+    // The font for Chinese characters on my Windows system is Noto Sans TC, which I manually patched to include simplified Chinese characters.
     // Default: "Consolas, 'Courier New', monospace"
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Microsoft JhengHei UI'",
+    "editor.fontFamily": "Cascadia Code",
     // Cascadia Code supports ligatures.
     "editor.fontLigatures": true,
     // Set such that I do not have to worry about the format.
@@ -71,9 +70,6 @@
     "editor.renderWhitespace": "all",
     // The value 110 is my convention.
     "editor.rulers": [110],
-    // This setting is provided by Visual Studio IntelliCode.
-    // Default: "recentlyUsed"
-    "editor.suggestSelection": "first",
     // In Markdown documents, there are long sentences/paragraphs.
     // Having word wrap allows me to better view them.
     "editor.wordWrap": "on",
@@ -198,9 +194,6 @@
     "ltex.language": "en",
     // 4-space indentations are used everywhere, including in Markdown documents.
     "markdown.extension.list.indentationSize": "inherit",
-    // Microsoft JhengHei UI is added.
-    // Default: "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
-    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif, 'Microsoft JhengHei UI'",
     // The feature adds a small line on top of a table, which I do not need.
     "markdown-table-formatter.enableSort": false,
     "markdownlint.config": {
@@ -252,8 +245,8 @@
     },
     // 4-space indentations are used everywhere.
     "prettier.tabWidth": 4,
-    // This setting is provided by Visual Studio IntelliCode.
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // The path to the `shfmt.exe` executable in Cygwin, copied from `%USERPROFILE%\go\bin\shfmt.exe`.
+    "shellformat.path": "C:\\cygwin64\\usr\\local\\bin\\shfmt.exe",
 
     /* Language-specific settings */
 
