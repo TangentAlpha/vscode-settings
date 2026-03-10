@@ -4,7 +4,6 @@
 - Code Spell Checker (MIT License)
 - Edit CSV (MIT License)
 - GitHub Copilot Chat (subscribed)
-- GitLens (MIT License)
 - Hex Editor (MIT License)
 - LaTeX Workshop (MIT License)
 - LTeX+ (MPL-2.0 License)
@@ -29,6 +28,7 @@
 - C# (MIT License)
     - .NET Install Tool (MIT License)
 - Decompiler (license is missing)
+- GitLens (MIT License)
 - Java Extension Pack (MIT License)
     - Debugger for Java (MIT License)
     - Gradle for Java (MIT License)
@@ -89,6 +89,10 @@
     },
     // The Git repository found in the parent folder can be opened in the Source Control view from the Activity Bar.
     "git.openRepositoryInParentFolders": "never",
+    "json.schemaDownload.trustedDomains": {
+        // Trust this domain to load the JSON schema for markdownlint configuration.
+        "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
+    },
     // Use Windows Terminal as the external terminal.
     "terminal.external.windowsExec": "wt",
     // If Git Bash is used (`C:\\Program Files\\Git\\bin\\bash.exe`), the current branch name is included in the bash prompt.
@@ -180,6 +184,10 @@
     ],
     // https://aka.ms/vscode-nes
     "github.copilot.nextEditSuggestions.enabled": true,
+    // Provided automatically by GitLens given that the Copilot extension is enabled.
+    "gitlens.ai.model": "vscode",
+    // The Copilot model suggested by GitLens
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     // The style of "identicon" is the cleanest.
     // Default: "robohash"
     "gitlens.defaultGravatarsStyle": "identicon",
