@@ -90,6 +90,8 @@
     // The Git repository found in the parent folder can be opened in the Source Control view from the Activity Bar.
     "git.openRepositoryInParentFolders": "never",
     "json.schemaDownload.trustedDomains": {
+        // Official URL shortener domain owned and used exclusively by Microsoft
+        "https://aka.ms/": true,
         // Trust this domain to load the JSON schema for markdownlint configuration.
         "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
     },
