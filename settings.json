@@ -260,8 +260,12 @@
 
     /* Language-specific settings */
 
+    "[css]": {
+        // Use VS Code's default formatter first.
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
     "[html]": {
-        // Use VSCode's default formatter first.
+        // Use VS Code's default formatter first.
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[json]": {
