@@ -2,8 +2,9 @@
 
 /*
 - Code Spell Checker (MIT License)
+- Custom CSS and JS Loader (MIT License)
 - Edit CSV (MIT License)
-- GitHub Copilot Chat (subscribed)
+- Fix VSCode Checksums Next (MIT License)
 - Hex Editor (MIT License)
 - LaTeX Workshop (MIT License)
 - LTeX+ (MPL-2.0 License)
@@ -28,14 +29,14 @@
 - C# (MIT License)
     - .NET Install Tool (MIT License)
 - Decompiler (license is missing)
-- GitLens (MIT License)
-- Java Extension Pack (MIT License)
+- Extension Pack for Java (MIT License)
     - Debugger for Java (MIT License)
     - Gradle for Java (MIT License)
     - Java Test Runner (MIT License)
     - Language Support for Java(TM) by Red Hat (EPL-2.0 License)
     - Maven for Java (MIT License)
     - Project Manager for Java (MIT License)
+- GitLens (MIT License)
 - Jupyter (MIT License)
     - Jupyter Cell Tags (MIT License)
     - Jupyter Keymap (MIT License)
@@ -256,6 +257,11 @@
     "prettier.tabWidth": 4,
     // The path to the `shfmt.exe` executable in Cygwin, copied from `%USERPROFILE%\go\bin\shfmt.exe`.
     "shellformat.path": "C:\\cygwin64\\usr\\local\\bin\\shfmt.exe",
+    // Run `Enable Custom CSS and JS`, then `Fix Checksums: Apply`.
+    // The custom CSS file ensures Chinese characters are rendered consistently, just as "editor.fontFamily" does.
+    "vscode_custom_css.imports": [
+        "file://${userHome}/AppData/Roaming/Code/User/custom-ui-font-family.css"
+    ],
 
     /* Language-specific settings */
 
