@@ -57,10 +57,9 @@
     // I am not using screen readers here.
     "editor.accessibilitySupport": "off",
     // Cascadia Code is a nice monospaced font.
-    // Chinese characters are supported by the system font fallback.
-    // The font for Chinese characters on my Windows system is Noto Sans TC, which I manually patched to include simplified Chinese characters.
+    // Noto Sans HK and Noto Sans SC are added as fallbacks for consistent rendering of Chinese characters.
     // Default: "Consolas, 'Courier New', monospace"
-    "editor.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "'Cascadia Code', 'Noto Sans HK', 'Noto Sans SC'",
     // Cascadia Code supports ligatures.
     "editor.fontLigatures": true,
     // Set such that I do not have to worry about the format.
