@@ -204,6 +204,9 @@
     "ltex.language": "en",
     // 4-space indentations are used everywhere, including in Markdown documents.
     "markdown.extension.list.indentationSize": "inherit",
+    // Noto Sans HK and Noto Sans SC are added as fallbacks for consistent rendering of Chinese characters.
+    // Default: "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
+    "markdown.preview.fontFamily": "'Segoe WPC', 'Segoe UI', 'Noto Sans HK', 'Noto Sans SC'",
     // The feature adds a small line on top of a table, which I do not need.
     "markdown-table-formatter.enableSort": false,
     "markdownlint.config": {
