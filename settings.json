@@ -276,6 +276,10 @@
         // Use VS Code's default formatter first.
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "[javascript]": {
+        // Use VS Code's default formatter first.
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
     "[json]": {
         // Prettier allows having a blank line to separate two sections, which is clearer.
         "editor.defaultFormatter": "esbenp.prettier-vscode"
