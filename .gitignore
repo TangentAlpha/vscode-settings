@@ -5,4 +5,6 @@
 !.gitattributes
 !.gitignore
 !custom-ui-font-family.css
+!prompts
+!prompts/Document.agent.md
 !settings.json
