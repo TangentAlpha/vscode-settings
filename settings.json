@@ -191,6 +191,10 @@
     ],
     // https://aka.ms/vscode-nes
     "github.copilot.nextEditSuggestions.enabled": true,
+    // AI provider suggested by GitLens
+    "gitlens.ai.model": "vscode",
+    // VS Code model suggested by GitLens
+    "gitlens.ai.vscode.model": "copilot:claude-sonnet-4.6",
     // The style of "identicon" is the cleanest.
     // Default: "robohash"
     "gitlens.defaultGravatarsStyle": "identicon",
